@@ -1,15 +1,9 @@
 {
-    "name": "dantleech/fink",
+    "name": "captenmasin/fink",
     "description": "Checks Links",
     "license": "MIT",
     "type": "library",
     "bin": [ "bin/fink" ],
-    "authors": [
-        {
-            "name": "Daniel Leech",
-            "email": "daniel@dantleech.com"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -33,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DTL\\Extension\\Fink\\": "lib/"
+            "Captenmasin\\Extension\\Fink\\": "lib/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DTL\\Extension\\Fink\\Tests\\": "tests/"
+            "Captenmasin\\Extension\\Fink\\Tests\\": "tests/"
         }
     },
     "extra": {

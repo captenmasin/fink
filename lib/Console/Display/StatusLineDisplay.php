@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Console\Display;
+namespace Captenmasin\Extension\Fink\Console\Display;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Model\Status;
 use Symfony\Component\Console\Formatter\OutputFormatterInterface;
 use Symfony\Component\Console\Helper\FormatterHelper;
 

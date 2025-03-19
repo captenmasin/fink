@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Model;
+namespace Captenmasin\Extension\Fink\Model;
 
 class HttpStatusCode
 {

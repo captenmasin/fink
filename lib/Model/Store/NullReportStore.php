@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Store;
+namespace Captenmasin\Extension\Fink\Model\Store;
 
 use ArrayIterator;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\ReportStore;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\ReportStore;
 use Traversable;
 
 class NullReportStore implements ReportStore

@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Model;
+namespace Captenmasin\Extension\Fink\Model;
 
 use Amp\Http\Client\Interceptor\FollowRedirects;
-use DTL\Extension\Fink\Model\Exception\InvalidUrl;
-use DTL\Extension\Fink\Model\Exception\InvalidUrlComparison;
+use Captenmasin\Extension\Fink\Model\Exception\InvalidUrl;
+use Captenmasin\Extension\Fink\Model\Exception\InvalidUrlComparison;
 use League\Uri\Http as HttpUri;
 use Psr\Http\Message\UriInterface as PsrUri;
 

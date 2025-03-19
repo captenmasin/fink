@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model\Queue;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Queue;
 
-use DTL\Extension\Fink\Model\Queue\MaxDistanceQueue;
-use DTL\Extension\Fink\Model\Queue\RealUrlQueue;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Queue\MaxDistanceQueue;
+use Captenmasin\Extension\Fink\Model\Queue\RealUrlQueue;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\TestCase;
 
 class MaxDistanceQueueTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model\Queue;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Queue;
 
-use DTL\Extension\Fink\Model\Queue\ExternalDistanceLimitingQueue;
-use DTL\Extension\Fink\Model\Queue\RealUrlQueue;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Queue\ExternalDistanceLimitingQueue;
+use Captenmasin\Extension\Fink\Model\Queue\RealUrlQueue;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\TestCase;
 
 class ExternalDisatanceLimitingQueueTest extends TestCase
@@ -13,8 +13,8 @@ class ExternalDisatanceLimitingQueueTest extends TestCase
     {
         $queue = new ExternalDistanceLimitingQueue(new RealUrlQueue(), 0);
 
-        $url = Url::fromUrl('https://www.dantleech.com');
-        $internalUrl = $url->resolveUrl('https://www.dantleech.com/1234');
+        $url = Url::fromUrl('https://www.captenmasin.com');
+        $internalUrl = $url->resolveUrl('https://www.captenmasin.com/1234');
         $externalUrl = $internalUrl->resolveUrl('https://foobar.com');
         $externalUrlChild = $externalUrl->resolveUrl('https://foobar.com/test');
 
@@ -26,11 +26,11 @@ class ExternalDisatanceLimitingQueueTest extends TestCase
 
     public function testLimitsExternalDistanceToOne()
     {
-        $url = Url::fromUrl('https://www.dantleech.com');
+        $url = Url::fromUrl('https://www.captenmasin.com');
 
         $queue = new ExternalDistanceLimitingQueue(new RealUrlQueue(), 1);
 
-        $internalUrl = $url->resolveUrl('https://www.dantleech.com/1234');
+        $internalUrl = $url->resolveUrl('https://www.captenmasin.com/1234');
         $externalUrl = $internalUrl->resolveUrl('https://foobar.com');
         $externalUrlChild = $externalUrl->resolveUrl('https://foobar.com/test');
 
@@ -45,7 +45,7 @@ class ExternalDisatanceLimitingQueueTest extends TestCase
 
     public function testLimitsExternalDistanceToTwo()
     {
-        $url = Url::fromUrl('https://www.dantleech.com');
+        $url = Url::fromUrl('https://www.captenmasin.com');
 
         $queue = new ExternalDistanceLimitingQueue(new RealUrlQueue(), 2);
 

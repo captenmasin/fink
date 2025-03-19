@@ -4,7 +4,7 @@
 use Phpactor\Container\PhpactorContainer;
 use Phpactor\Extension\Console\ConsoleExtension;
 use Symfony\Component\Console\Application;
-use DTL\Extension\Fink\FinkExtension;
+use Captenmasin\Extension\Fink\FinkExtension;
 
 if (is_file(__DIR__ . '/../vendor/autoload.php')) {
     $autoloader = require __DIR__ . '/../vendor/autoload.php';

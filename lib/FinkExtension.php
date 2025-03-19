@@ -1,16 +1,16 @@
 <?php
 
-namespace DTL\Extension\Fink;
+namespace Captenmasin\Extension\Fink;
 
-use DTL\Extension\Fink\Console\Command\CrawlCommand;
-use DTL\Extension\Fink\Console\DisplayBuilder;
-use DTL\Extension\Fink\Console\DisplayRegistry;
-use DTL\Extension\Fink\Console\Display\MemoryDisplay;
-use DTL\Extension\Fink\Console\Display\RateDisplay;
-use DTL\Extension\Fink\Console\Display\StatusLineDisplay;
-use DTL\Extension\Fink\Console\Display\ReportListDisplay;
-use DTL\Extension\Fink\Console\Display\UptimeDisplay;
-use DTL\Extension\Fink\Model\DispatcherBuilderFactory;
+use Captenmasin\Extension\Fink\Console\Command\CrawlCommand;
+use Captenmasin\Extension\Fink\Console\DisplayBuilder;
+use Captenmasin\Extension\Fink\Console\DisplayRegistry;
+use Captenmasin\Extension\Fink\Console\Display\MemoryDisplay;
+use Captenmasin\Extension\Fink\Console\Display\RateDisplay;
+use Captenmasin\Extension\Fink\Console\Display\StatusLineDisplay;
+use Captenmasin\Extension\Fink\Console\Display\ReportListDisplay;
+use Captenmasin\Extension\Fink\Console\Display\UptimeDisplay;
+use Captenmasin\Extension\Fink\Model\DispatcherBuilderFactory;
 use Phpactor\Container\Container;
 use Phpactor\Container\ContainerBuilder;
 use Phpactor\Container\Extension;

@@ -1,15 +1,15 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model\Publisher;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Publisher;
 
 use Amp\ByteStream\OutputStream;
 use Amp\Loop;
 use Amp\Success;
-use DTL\Extension\Fink\Model\Publisher;
-use DTL\Extension\Fink\Model\Publisher\JsonStreamPublisher;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\ReportBuilder;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Publisher;
+use Captenmasin\Extension\Fink\Model\Publisher\JsonStreamPublisher;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\ReportBuilder;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
@@ -38,7 +38,7 @@ class JsonStreamPublisherTest extends TestCase
     protected function setUp(): void
     {
         $this->outputStream = $this->prophesize(OutputStream::class);
-        $this->report = ReportBuilder::forUrl(Url::fromUrl('https://www.dantleech.com'))
+        $this->report = ReportBuilder::forUrl(Url::fromUrl('https://www.captenmasin.com'))
              ->withStatus(200)
              ->build();
 

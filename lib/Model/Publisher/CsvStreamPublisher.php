@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Publisher;
+namespace Captenmasin\Extension\Fink\Model\Publisher;
 
-use DTL\Extension\Fink\Model\Publisher;
-use DTL\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\Publisher;
+use Captenmasin\Extension\Fink\Model\Report;
 
 class CsvStreamPublisher implements Publisher
 {

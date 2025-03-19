@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model;
 
 use DOMDocument;
 use DOMNode;
-use DTL\Extension\Fink\Model\ReferringElement;
+use Captenmasin\Extension\Fink\Model\ReferringElement;
 use PHPUnit\Framework\TestCase;
 
 class ReferringElementTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console\Display;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console\Display;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Console\Display\RateDisplay;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Console\Display\RateDisplay;
+use Captenmasin\Extension\Fink\Model\Status;
 use Symfony\Component\Console\Helper\FormatterHelper;
 
 class RateDisplayTest extends DisplayTestCase

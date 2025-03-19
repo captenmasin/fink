@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Model;
+namespace Captenmasin\Extension\Fink\Model;
 
 use Amp\Http\Client\HttpClient;
 use Amp\Http\Client\Request;
@@ -8,7 +8,7 @@ use Amp\Http\Client\Response;
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
-use DTL\Extension\Fink\Model\Exception\InvalidUrl;
+use Captenmasin\Extension\Fink\Model\Exception\InvalidUrl;
 use Generator;
 
 class Crawler

@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Console\Exception;
+namespace Captenmasin\Extension\Fink\Console\Exception;
 
 use RuntimeException;
 

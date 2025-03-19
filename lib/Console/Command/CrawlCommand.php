@@ -1,12 +1,12 @@
 <?php
 
-namespace DTL\Extension\Fink\Console\Command;
+namespace Captenmasin\Extension\Fink\Console\Command;
 
 use Amp\Loop;
-use DTL\Extension\Fink\Console\DisplayBuilder;
-use DTL\Extension\Fink\Console\HeaderParser;
-use DTL\Extension\Fink\Model\DispatcherBuilderFactory;
-use DTL\Extension\Fink\Model\Dispatcher;
+use Captenmasin\Extension\Fink\Console\DisplayBuilder;
+use Captenmasin\Extension\Fink\Console\HeaderParser;
+use Captenmasin\Extension\Fink\Model\DispatcherBuilderFactory;
+use Captenmasin\Extension\Fink\Model\Dispatcher;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -14,7 +14,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Console\Output\OutputInterface;
-use DTL\Extension\Fink\Console\Command\Exception\AtLeastOneFailure;
+use Captenmasin\Extension\Fink\Console\Command\Exception\AtLeastOneFailure;
 
 class CrawlCommand extends Command
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Limiter;
+namespace Captenmasin\Extension\Fink\Model\Limiter;
 
-use DTL\Extension\Fink\Model\Limiter;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Model\Limiter;
+use Captenmasin\Extension\Fink\Model\Status;
 
 class ChainLimiter implements Limiter
 {

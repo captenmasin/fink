@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Limiter\Exception;
+namespace Captenmasin\Extension\Fink\Model\Limiter\Exception;
 
 use Exception;
 

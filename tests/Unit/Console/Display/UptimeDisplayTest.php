@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console\Display;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console\Display;
 
-use DTL\Extension\Fink\Console\Display\UptimeDisplay;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Console\Display\UptimeDisplay;
+use Captenmasin\Extension\Fink\Model\Status;
 use DateTimeImmutable;
 use Symfony\Component\Console\Helper\FormatterHelper;
 

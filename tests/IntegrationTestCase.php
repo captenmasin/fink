@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests;
+namespace Captenmasin\Extension\Fink\Tests;
 
 use Amp\PHPUnit\AsyncTestCase;
 use Phpactor\TestUtils\Workspace;

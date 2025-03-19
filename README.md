@@ -1,7 +1,7 @@
 Fink
 ====
 
-[![Build Status](https://travis-ci.org/dantleech/fink.svg?branch=master)](https://travis-ci.org/dantleech/fink)
+[![Build Status](https://travis-ci.org/captenmasin/fink.svg?branch=master)](https://travis-ci.org/captenmasin/fink)
 
 Fink (pronounced "Phpink") is a command line tool, written in PHP, for checking HTTP links.
 
@@ -18,13 +18,13 @@ Install as a stand-alone tool or as a project dependency:
 ### Installing as a project dependency
 
 ```bash
-$ composer require dantleech/fink --dev
+$ composer require captenmasin/fink --dev
 ```
 
 ### Installing from a PHAR
 
 Download the PHAR from the
-[Releases](https://github.com/dantleech/fink/releases) page.
+[Releases](https://github.com/captenmasin/fink/releases) page.
 
 ### Building your own PHAR with Box
 

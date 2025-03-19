@@ -1,8 +1,8 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\EndToEnd\Command;
+namespace Captenmasin\Extension\Fink\Tests\EndToEnd\Command;
 
-use DTL\Extension\Fink\Tests\EndToEnd\EndToEndTestCase;
+use Captenmasin\Extension\Fink\Tests\EndToEnd\EndToEndTestCase;
 
 class CrawlCommandTest extends EndToEndTestCase
 {

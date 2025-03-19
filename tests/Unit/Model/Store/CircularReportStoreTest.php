@@ -1,10 +1,10 @@
 <?php
-namespace DTL\Extension\Fink\Tests\Unit\Model\Store;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Store;
 
-use DTL\Extension\Fink\Model\Store\CircularReportStore;
-use DTL\Extension\Fink\Model\HttpStatusCode;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Store\CircularReportStore;
+use Captenmasin\Extension\Fink\Model\HttpStatusCode;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\TestCase;
 
 class CircularReportStoreTest extends TestCase

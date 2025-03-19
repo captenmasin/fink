@@ -1,15 +1,15 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console\Display;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console\Display;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Console\Display\ReportListDisplay;
-use DTL\Extension\Fink\Model\HttpStatusCode;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\Status;
-use DTL\Extension\Fink\Model\Store\CircularReportStore;
-use DTL\Extension\Fink\Model\Store\ImmutableReportStore;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Console\Display\ReportListDisplay;
+use Captenmasin\Extension\Fink\Model\HttpStatusCode;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Model\Store\CircularReportStore;
+use Captenmasin\Extension\Fink\Model\Store\ImmutableReportStore;
+use Captenmasin\Extension\Fink\Model\Url;
 use Symfony\Component\Console\Helper\FormatterHelper;
 
 class ReportListDisplayTest extends DisplayTestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model\Limiter;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Limiter;
 
-use DTL\Extension\Fink\Model\Limiter;
-use DTL\Extension\Fink\Model\Limiter\ChainLimiter;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Model\Limiter;
+use Captenmasin\Extension\Fink\Model\Limiter\ChainLimiter;
+use Captenmasin\Extension\Fink\Model\Status;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 

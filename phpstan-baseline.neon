@@ -1,207 +1,207 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\ImmutableCookieJar\\:\\:store\\(\\) return type with generic interface Amp\\\\Promise does not specify its types\\: TValue$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\ImmutableCookieJar\\:\\:store\\(\\) return type with generic interface Amp\\\\Promise does not specify its types\\: TValue$#"
 			count: 1
 			path: lib/Adapter/Artax/ImmutableCookieJar.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\NetscapeCookieFileJar\\:\\:getAll\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\NetscapeCookieFileJar\\:\\:getAll\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Adapter/Artax/NetscapeCookieFileJar.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\NetscapeCookieFileJar\\:\\:store\\(\\) return type with generic interface Amp\\\\Promise does not specify its types\\: TValue$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Adapter\\\\Artax\\\\NetscapeCookieFileJar\\:\\:store\\(\\) return type with generic interface Amp\\\\Promise does not specify its types\\: TValue$#"
 			count: 1
 			path: lib/Adapter/Artax/NetscapeCookieFileJar.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToArray\\(\\) has parameter \\$value with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToArray\\(\\) has parameter \\$value with no type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToArray\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToBool\\(\\) has parameter \\$value with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToBool\\(\\) has parameter \\$value with no type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToFloat\\(\\) has parameter \\$value with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToFloat\\(\\) has parameter \\$value with no type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToInt\\(\\) has parameter \\$value with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToInt\\(\\) has parameter \\$value with no type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToString\\(\\) has parameter \\$value with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:castToString\\(\\) has parameter \\$value with no type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:configure\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Command\\\\CrawlCommand\\:\\:configure\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/Command/CrawlCommand.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\ConcatenatingDisplay\\:\\:__construct\\(\\) has parameter \\$displays with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\ConcatenatingDisplay\\:\\:__construct\\(\\) has parameter \\$displays with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/Display/ConcatenatingDisplay.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:averageRequestTime\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:averageRequestTime\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/Display/RateDisplay.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$initialTime has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$initialTime has no type specified\\.$#"
 			count: 1
 			path: lib/Console/Display/RateDisplay.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$lastRequestCount has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$lastRequestCount has no type specified\\.$#"
 			count: 1
 			path: lib/Console/Display/RateDisplay.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$requestCounts has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\RateDisplay\\:\\:\\$requestCounts has no type specified\\.$#"
 			count: 1
 			path: lib/Console/Display/RateDisplay.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\ReportListDisplay\\:\\:resolveFormat\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\ReportListDisplay\\:\\:resolveFormat\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/Display/ReportListDisplay.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\UptimeDisplay\\:\\:\\$windowSize is unused\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\Display\\\\UptimeDisplay\\:\\:\\$windowSize is unused\\.$#"
 			count: 1
 			path: lib/Console/Display/UptimeDisplay.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:__construct\\(\\) has parameter \\$defaut with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:__construct\\(\\) has parameter \\$defaut with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:initializeDisplayNames\\(\\) has parameter \\$units with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:initializeDisplayNames\\(\\) has parameter \\$units with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:initializeDisplayNames\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:initializeDisplayNames\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:removeDisplayNames\\(\\) has parameter \\$units with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:removeDisplayNames\\(\\) has parameter \\$units with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:removeDisplayNames\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:removeDisplayNames\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:\\$default type has no value type specified in iterable type array\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayBuilder\\:\\:\\$default type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:__construct\\(\\) has parameter \\$displays with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:__construct\\(\\) has parameter \\$displays with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayRegistry.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:add\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:add\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/DisplayRegistry.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:get\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:get\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/DisplayRegistry.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:\\$displays type has no value type specified in iterable type array\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\DisplayRegistry\\:\\:\\$displays type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/DisplayRegistry.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\HeaderParser\\:\\:parseHeaders\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\HeaderParser\\:\\:parseHeaders\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Console/HeaderParser.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Console\\\\HeaderParser\\:\\:parseHeaders\\(\\) has parameter \\$rawHeaders with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Console\\\\HeaderParser\\:\\:parseHeaders\\(\\) has parameter \\$rawHeaders with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Console/HeaderParser.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:buildPublishStream\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:buildPublishStream\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:buildPublisher\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:buildPublisher\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:create\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:create\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:excludeUrlPatterns\\(\\) has parameter \\$urlPatterns with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:excludeUrlPatterns\\(\\) has parameter \\$urlPatterns with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:headers\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:headers\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:includeLinks\\(\\) has parameter \\$includeLinks with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:includeLinks\\(\\) has parameter \\$includeLinks with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:publishResource\\(\\) has parameter \\$resource with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:publishResource\\(\\) has parameter \\$resource with no type specified\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:\\$excludeUrlPatterns type has no value type specified in iterable type array\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:\\$excludeUrlPatterns type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:\\$headers type has no value type specified in iterable type array\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\DispatcherBuilder\\:\\:\\$headers type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/DispatcherBuilder.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:configure\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:configure\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/FinkExtension.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:configure\\(\\) should return array but return statement is missing\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:configure\\(\\) should return array but return statement is missing\\.$#"
 			count: 1
 			path: lib/FinkExtension.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:load\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\FinkExtension\\:\\:load\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/FinkExtension.php
 
@@ -211,111 +211,111 @@ parameters:
 			path: lib/Model/Crawler.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Dispatcher\\:\\:dispatch\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Dispatcher\\:\\:dispatch\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Model/Dispatcher.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\Dispatcher\\:\\:\\$maxDistance is unused\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Dispatcher\\:\\:\\$maxDistance is unused\\.$#"
 			count: 1
 			path: lib/Model/Dispatcher.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\DispatcherBuilderFactory\\:\\:createForUrls\\(\\) has parameter \\$urls with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\DispatcherBuilderFactory\\:\\:createForUrls\\(\\) has parameter \\$urls with no type specified\\.$#"
 			count: 1
 			path: lib/Model/DispatcherBuilderFactory.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\ChainLimiter\\:\\:__construct\\(\\) has parameter \\$limiters with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\ChainLimiter\\:\\:__construct\\(\\) has parameter \\$limiters with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Limiter/ChainLimiter.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\ChainLimiter\\:\\:add\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\ChainLimiter\\:\\:add\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Model/Limiter/ChainLimiter.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\RateLimiter\\:\\:\\$lastRequest has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Limiter\\\\RateLimiter\\:\\:\\$lastRequest has no type specified\\.$#"
 			count: 1
 			path: lib/Model/Limiter/RateLimiter.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Publisher\\\\CsvStreamPublisher\\:\\:__construct\\(\\) has parameter \\$stream with no type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Publisher\\\\CsvStreamPublisher\\:\\:__construct\\(\\) has parameter \\$stream with no type specified\\.$#"
 			count: 1
 			path: lib/Model/Publisher/CsvStreamPublisher.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\DedupeQueue\\:\\:\\$seen has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\DedupeQueue\\:\\:\\$seen has no type specified\\.$#"
 			count: 1
 			path: lib/Model/Queue/DedupeQueue.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\ExcludingQueue\\:\\:__construct\\(\\) has parameter \\$patterns with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\ExcludingQueue\\:\\:__construct\\(\\) has parameter \\$patterns with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Queue/ExcludingQueue.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\ExcludingQueue\\:\\:\\$patterns type has no value type specified in iterable type array\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\ExcludingQueue\\:\\:\\$patterns type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Queue/ExcludingQueue.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\RealUrlQueue\\:\\:\\$urls has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Queue\\\\RealUrlQueue\\:\\:\\$urls has no type specified\\.$#"
 			count: 1
 			path: lib/Model/Queue/RealUrlQueue.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$baseUri has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$baseUri has no type specified\\.$#"
 			count: 1
 			path: lib/Model/ReferringElement.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$title has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$title has no type specified\\.$#"
 			count: 1
 			path: lib/Model/ReferringElement.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$xpath has no type specified\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\ReferringElement\\:\\:\\$xpath has no type specified\\.$#"
 			count: 1
 			path: lib/Model/ReferringElement.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Report\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Report\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Report.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\ReportBuilder\\:\\:withTimestamp\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\ReportBuilder\\:\\:withTimestamp\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Model/ReportBuilder.php
 
 		-
-			message: "#^Property DTL\\\\Extension\\\\Fink\\\\Model\\\\ReportBuilder\\:\\:\\$referringUrl is never read, only written\\.$#"
+			message: "#^Property Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\ReportBuilder\\:\\:\\$referringUrl is never read, only written\\.$#"
 			count: 1
 			path: lib/Model/ReportBuilder.php
 
 		-
-			message: "#^Class DTL\\\\Extension\\\\Fink\\\\Model\\\\Urls implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			message: "#^Class Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Urls implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
 			count: 1
 			path: lib/Model/Urls.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:__construct\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:__construct\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Urls.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:add\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:add\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Model/Urls.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:fromUrls\\(\\) has no return type specified\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:fromUrls\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: lib/Model/Urls.php
 
 		-
-			message: "#^Method DTL\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:fromUrls\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
+			message: "#^Method Captenmasin\\\\Extension\\\\Fink\\\\Model\\\\Urls\\:\\:fromUrls\\(\\) has parameter \\$urls with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: lib/Model/Urls.php

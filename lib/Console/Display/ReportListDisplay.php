@@ -1,11 +1,11 @@
 <?php
 
-namespace DTL\Extension\Fink\Console\Display;
+namespace Captenmasin\Extension\Fink\Console\Display;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Model\HttpStatusCode;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Model\HttpStatusCode;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\Status;
 use Symfony\Component\Console\Formatter\OutputFormatterInterface;
 
 class ReportListDisplay implements Display

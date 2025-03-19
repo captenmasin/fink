@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Console\DisplayRegistry;
-use DTL\Extension\Fink\Console\Exception\DisplayNotFound;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Console\DisplayRegistry;
+use Captenmasin\Extension\Fink\Console\Exception\DisplayNotFound;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 

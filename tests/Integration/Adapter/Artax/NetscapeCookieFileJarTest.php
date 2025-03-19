@@ -1,11 +1,11 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Integration\Adapter\Artax;
+namespace Captenmasin\Extension\Fink\Tests\Integration\Adapter\Artax;
 
 use Amp\Http\Client\Request;
 use Amp\Http\Cookie\ResponseCookie;
-use DTL\Extension\Fink\Adapter\Artax\NetscapeCookieFileJar;
-use DTL\Extension\Fink\Tests\IntegrationTestCase;
+use Captenmasin\Extension\Fink\Adapter\Artax\NetscapeCookieFileJar;
+use Captenmasin\Extension\Fink\Tests\IntegrationTestCase;
 use DateTimeImmutable;
 use RuntimeException;
 

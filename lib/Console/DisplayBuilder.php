@@ -1,8 +1,8 @@
 <?php
 
-namespace DTL\Extension\Fink\Console;
+namespace Captenmasin\Extension\Fink\Console;
 
-use DTL\Extension\Fink\Console\Display\ConcatenatingDisplay;
+use Captenmasin\Extension\Fink\Console\Display\ConcatenatingDisplay;
 
 class DisplayBuilder
 {

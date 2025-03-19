@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Adapter\Artax;
+namespace Captenmasin\Extension\Fink\Adapter\Artax;
 
 use Amp\Http\Client\Cookie\CookieJar;
 use Amp\Http\Cookie\ResponseCookie;

@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Model;
+namespace Captenmasin\Extension\Fink\Model;
 
-use DTL\Extension\Fink\Model\Store\ImmutableReportStore;
-use DTL\Extension\Fink\Model\ImmutableReportStore as ImmutableReportStoreInterface;
+use Captenmasin\Extension\Fink\Model\Store\ImmutableReportStore;
+use Captenmasin\Extension\Fink\Model\ImmutableReportStore as ImmutableReportStoreInterface;
 use Exception;
 
 class Dispatcher

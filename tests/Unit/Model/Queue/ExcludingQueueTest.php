@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model\Queue;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model\Queue;
 
-use DTL\Extension\Fink\Model\Queue\ExcludingQueue;
-use DTL\Extension\Fink\Model\Queue\RealUrlQueue;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Queue\ExcludingQueue;
+use Captenmasin\Extension\Fink\Model\Queue\RealUrlQueue;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 

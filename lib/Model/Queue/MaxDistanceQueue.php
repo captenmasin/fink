@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Queue;
+namespace Captenmasin\Extension\Fink\Model\Queue;
 
-use DTL\Extension\Fink\Model\Url;
-use DTL\Extension\Fink\Model\UrlQueue;
+use Captenmasin\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\UrlQueue;
 
 class MaxDistanceQueue implements UrlQueue
 {

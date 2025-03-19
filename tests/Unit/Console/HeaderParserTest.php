@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console;
 
-use DTL\Extension\Fink\Console\Exception\CouldNotParseHeader;
-use DTL\Extension\Fink\Console\HeaderParser;
+use Captenmasin\Extension\Fink\Console\Exception\CouldNotParseHeader;
+use Captenmasin\Extension\Fink\Console\HeaderParser;
 use PHPUnit\Framework\TestCase;
 
 class HeaderParserTest extends TestCase

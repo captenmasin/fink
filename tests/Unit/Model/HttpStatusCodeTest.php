@@ -1,8 +1,8 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model;
 
-use DTL\Extension\Fink\Model\HttpStatusCode;
+use Captenmasin\Extension\Fink\Model\HttpStatusCode;
 use PHPUnit\Framework\TestCase;
 
 class HttpStatusCodeTest extends TestCase

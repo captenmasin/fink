@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Console\Display;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Console\Display;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Formatter\OutputFormatter;

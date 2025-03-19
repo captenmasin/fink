@@ -1,8 +1,8 @@
 <?php
 
-namespace DTL\Extension\Fink\Model;
+namespace Captenmasin\Extension\Fink\Model;
 
-use DTL\Extension\Fink\DispatcherBuilder;
+use Captenmasin\Extension\Fink\DispatcherBuilder;
 
 class DispatcherBuilderFactory
 {

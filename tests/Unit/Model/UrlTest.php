@@ -1,10 +1,10 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model;
 
-use DTL\Extension\Fink\Model\Exception\InvalidUrl;
-use DTL\Extension\Fink\Model\Exception\InvalidUrlComparison;
-use DTL\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Exception\InvalidUrl;
+use Captenmasin\Extension\Fink\Model\Exception\InvalidUrlComparison;
+use Captenmasin\Extension\Fink\Model\Url;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase
@@ -163,32 +163,32 @@ tids[n]+" ];
     public function provideIsEqualToOrDescendant()
     {
         yield 'equal' => [
-            'https://www.dantleech.com',
-            'https://www.dantleech.com',
+            'https://www.captenmasin.com',
+            'https://www.captenmasin.com',
             true
         ];
 
         yield 'descendant' => [
-            'https://www.dantleech.com',
-            'https://www.dantleech.com/foo',
+            'https://www.captenmasin.com',
+            'https://www.captenmasin.com/foo',
             true
         ];
 
         yield 'not descendant' => [
-            'https://www.dantleech.com/foo',
-            'https://www.dantleech.com',
+            'https://www.captenmasin.com/foo',
+            'https://www.captenmasin.com',
             false
         ];
     }
 
     public function testResolveDistanceFromOriginalLink()
     {
-        $baseLink = Url::fromUrl('http://www.dantleech.com');
+        $baseLink = Url::fromUrl('http://www.captenmasin.com');
         $this->assertEquals(0, $baseLink->distance());
 
-        $result = $baseLink->resolveUrl('http://www.dantleech.com/1');
+        $result = $baseLink->resolveUrl('http://www.captenmasin.com/1');
         $this->assertEquals(1, $result->distance());
-        $result = $result->resolveUrl('http://www.dantleech.com/1');
+        $result = $result->resolveUrl('http://www.captenmasin.com/1');
         $this->assertEquals(2, $result->distance());
     }
 
@@ -213,31 +213,31 @@ tids[n]+" ];
     {
         yield 'base URL has zero distance' => [
             [
-                'https://www.dantleech.com',
+                'https://www.captenmasin.com',
             ],
             0
         ];
 
         yield 'descendant of base url' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foobar',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foobar',
             ],
             0
         ];
 
         yield 'descendant of descendant of base URL' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foobar',
-                'https://www.dantleech.com/foobar/barfoo',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foobar',
+                'https://www.captenmasin.com/foobar/barfoo',
             ],
             0
         ];
 
         yield 'external URL' => [
             [
-                'https://www.dantleech.com',
+                'https://www.captenmasin.com',
                 'https://www.example.com',
             ],
             1
@@ -245,7 +245,7 @@ tids[n]+" ];
 
         yield 'external URL two steps removed' => [
             [
-                'https://www.dantleech.com',
+                'https://www.captenmasin.com',
                 'https://www.example.com',
                 'https://www.example.com/foo',
             ],
@@ -254,8 +254,8 @@ tids[n]+" ];
 
         yield 'two internal URLs then an external' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foo',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foo',
                 'https://www.example.com',
             ],
             1
@@ -263,8 +263,8 @@ tids[n]+" ];
 
         yield 'three levels removed' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foo',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foo',
                 'https://www.example.com',
                 'https://www.example.com/foobar',
                 'https://www.example.com/foobar/bar',
@@ -274,10 +274,10 @@ tids[n]+" ];
 
         yield 'intermediate base URL' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foo',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foo',
                 'https://www.example.com',
-                'https://www.dantleech.com',
+                'https://www.captenmasin.com',
                 'https://www.example.com',
             ],
             1
@@ -285,10 +285,10 @@ tids[n]+" ];
 
         yield 'intermediate descendant of base URL' => [
             [
-                'https://www.dantleech.com',
-                'https://www.dantleech.com/foo',
+                'https://www.captenmasin.com',
+                'https://www.captenmasin.com/foo',
                 'https://www.example.com',
-                'https://www.dantleech.com/bar/foo',
+                'https://www.captenmasin.com/bar/foo',
                 'https://www.example.com',
             ],
             1

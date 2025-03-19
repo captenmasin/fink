@@ -1,12 +1,12 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Adapter\Artax;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Adapter\Artax;
 
 use Amp\Http\Client\Cookie\CookieJar;
 use Amp\Http\Client\Request;
 use Amp\Http\Cookie\ResponseCookie;
 use Amp\Success;
-use DTL\Extension\Fink\Adapter\Artax\ImmutableCookieJar;
+use Captenmasin\Extension\Fink\Adapter\Artax\ImmutableCookieJar;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;

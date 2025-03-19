@@ -1,11 +1,11 @@
 <?php
 
-namespace DTL\Extension\Fink\Console\Display;
+namespace Captenmasin\Extension\Fink\Console\Display;
 
-use DTL\Extension\Fink\Console\Display;
-use DTL\Extension\Fink\Model\Report;
-use DTL\Extension\Fink\Model\Status;
-use DTL\Extension\Fink\Model\Store\ImmutableReportStore;
+use Captenmasin\Extension\Fink\Console\Display;
+use Captenmasin\Extension\Fink\Model\Report;
+use Captenmasin\Extension\Fink\Model\Status;
+use Captenmasin\Extension\Fink\Model\Store\ImmutableReportStore;
 use Symfony\Component\Console\Formatter\OutputFormatterInterface;
 
 class RateDisplay implements Display

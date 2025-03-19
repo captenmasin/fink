@@ -1,9 +1,9 @@
 <?php
 
-namespace DTL\Extension\Fink\Model\Store;
+namespace Captenmasin\Extension\Fink\Model\Store;
 
-use DTL\Extension\Fink\Model\ImmutableReportStore as ImmutableReportStoreInterface;
-use DTL\Extension\Fink\Model\ReportStore;
+use Captenmasin\Extension\Fink\Model\ImmutableReportStore as ImmutableReportStoreInterface;
+use Captenmasin\Extension\Fink\Model\ReportStore;
 use Traversable;
 
 class ImmutableReportStore implements ImmutableReportStoreInterface

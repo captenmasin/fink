@@ -1,6 +1,6 @@
 <?php
 
-namespace DTL\Extension\Fink;
+namespace Captenmasin\Extension\Fink;
 
 use Amp\ByteStream\ResourceOutputStream;
 use Amp\Http\Client\Connection\DefaultConnectionFactory;
@@ -14,26 +14,26 @@ use Amp\Http\Client\Interceptor\SetRequestHeaderIfUnset;
 use Amp\Http\Client\Request;
 use Amp\Socket\ClientTlsContext;
 use Amp\Socket\ConnectContext;
-use DTL\Extension\Fink\Adapter\Artax\ImmutableCookieJar;
-use DTL\Extension\Fink\Adapter\Artax\NetscapeCookieFileJar;
-use DTL\Extension\Fink\Model\Crawler;
-use DTL\Extension\Fink\Model\Dispatcher;
-use DTL\Extension\Fink\Model\Limiter;
-use DTL\Extension\Fink\Model\Limiter\ChainLimiter;
-use DTL\Extension\Fink\Model\Limiter\ConcurrencyLimiter;
-use DTL\Extension\Fink\Model\Limiter\RateLimiter;
-use DTL\Extension\Fink\Model\Publisher\BlackholePublisher;
-use DTL\Extension\Fink\Model\Publisher\CsvStreamPublisher;
-use DTL\Extension\Fink\Model\Publisher\JsonStreamPublisher;
-use DTL\Extension\Fink\Model\Queue\DedupeQueue;
-use DTL\Extension\Fink\Model\Queue\ExcludingQueue;
-use DTL\Extension\Fink\Model\Queue\ExternalDistanceLimitingQueue;
-use DTL\Extension\Fink\Model\Queue\MaxDistanceQueue;
-use DTL\Extension\Fink\Model\Queue\RealUrlQueue;
-use DTL\Extension\Fink\Model\Store\CircularReportStore;
-use DTL\Extension\Fink\Model\Url;
-use DTL\Extension\Fink\Model\UrlQueue;
-use DTL\Extension\Fink\Model\Urls;
+use Captenmasin\Extension\Fink\Adapter\Artax\ImmutableCookieJar;
+use Captenmasin\Extension\Fink\Adapter\Artax\NetscapeCookieFileJar;
+use Captenmasin\Extension\Fink\Model\Crawler;
+use Captenmasin\Extension\Fink\Model\Dispatcher;
+use Captenmasin\Extension\Fink\Model\Limiter;
+use Captenmasin\Extension\Fink\Model\Limiter\ChainLimiter;
+use Captenmasin\Extension\Fink\Model\Limiter\ConcurrencyLimiter;
+use Captenmasin\Extension\Fink\Model\Limiter\RateLimiter;
+use Captenmasin\Extension\Fink\Model\Publisher\BlackholePublisher;
+use Captenmasin\Extension\Fink\Model\Publisher\CsvStreamPublisher;
+use Captenmasin\Extension\Fink\Model\Publisher\JsonStreamPublisher;
+use Captenmasin\Extension\Fink\Model\Queue\DedupeQueue;
+use Captenmasin\Extension\Fink\Model\Queue\ExcludingQueue;
+use Captenmasin\Extension\Fink\Model\Queue\ExternalDistanceLimitingQueue;
+use Captenmasin\Extension\Fink\Model\Queue\MaxDistanceQueue;
+use Captenmasin\Extension\Fink\Model\Queue\RealUrlQueue;
+use Captenmasin\Extension\Fink\Model\Store\CircularReportStore;
+use Captenmasin\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\UrlQueue;
+use Captenmasin\Extension\Fink\Model\Urls;
 use RuntimeException;
 use function Amp\Socket\hasTlsSecurityLevelSupport;
 

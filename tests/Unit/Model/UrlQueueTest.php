@@ -1,16 +1,16 @@
 <?php
 
-namespace DTL\Extension\Fink\Tests\Unit\Model;
+namespace Captenmasin\Extension\Fink\Tests\Unit\Model;
 
-use DTL\Extension\Fink\Model\Url;
-use DTL\Extension\Fink\Model\Queue\RealUrlQueue;
+use Captenmasin\Extension\Fink\Model\Url;
+use Captenmasin\Extension\Fink\Model\Queue\RealUrlQueue;
 use PHPUnit\Framework\TestCase;
 
 class UrlQueueTest extends TestCase
 {
     public function testEnqueueDequeue()
     {
-        $url = Url::fromUrl('http://www.dantleech.com');
+        $url = Url::fromUrl('http://www.captenmasin.com');
         $queue = new RealUrlQueue();
         $queue->enqueue($url);
         $this->assertSame($url, $queue->dequeue());
@@ -18,7 +18,7 @@ class UrlQueueTest extends TestCase
 
     public function testEnqueueMultiple()
     {
-        $url1 = Url::fromUrl('http://www.dantleech.com');
+        $url1 = Url::fromUrl('http://www.captenmasin.com');
         $url2 = Url::fromUrl('http://www.example.com');
 
         $queue = new RealUrlQueue();

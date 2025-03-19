@@ -1,8 +1,8 @@
 <?php
 
-namespace DTL\Extension\Fink\Console;
+namespace Captenmasin\Extension\Fink\Console;
 
-use DTL\Extension\Fink\Console\Exception\CouldNotParseHeader;
+use Captenmasin\Extension\Fink\Console\Exception\CouldNotParseHeader;
 
 final class HeaderParser
 {
